@@ -1,0 +1,134 @@
+/*
+Shaheed Minar Animation By Durjoysoft
+
+Email: helpdas@durjoysoft.com
+Mobile:  01610728750, 01999737584 (08:00 am to 10:00 pm)
+Send a text SMS before making a call.
+*/
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: 0.5s;
+}
+.latter {
+  color: transparent;
+  font-size: 60px;
+  animation: textanimation 5s linear infinite;
+}
+@keyframes textanimation {
+  to {
+    color: #fff;
+  }
+}
+.latter1 {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  transform: rotate(45deg);
+}
+.latter2 {
+  position: absolute;
+  top: 2%;
+  right: 35%;
+  transform: rotate(-45deg);
+}
+.latter3 {
+  position: absolute;
+  top: 20%;
+  right: 58%;
+  transform: rotate(-45deg);
+}
+.latter4 {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  transform: rotate(-45deg);
+}
+.latter4 {
+  position: absolute;
+  top: 21%;
+  left: 29%;
+  transform: rotate(-45deg);
+}
+.latter5 {
+  position: absolute;
+  top: 13%;
+  left: 35%;
+  transform: rotate(-45deg);
+}
+.latter6 {
+  position: absolute;
+  top: 17%;
+  right: 37%;
+  transform: rotate(-45deg);
+}
+.latter7 {
+  position: absolute;
+  top: 22%;
+  right: 29%;
+  transform: rotate(-45deg);
+}
+.latter8 {
+  position: absolute;
+  top: 33%;
+  left: 45%;
+  transform: rotate(-45deg);
+}
+.latter9 {
+  position: absolute;
+  top: 22%;
+  left: 43%;
+  transform: rotate(-45deg);
+  font-size: 80px;
+  font-weight: 700;
+}
+.latter10 {
+  position: absolute;
+  top: 38%;
+  left: 47%;
+  transform: rotate(-45deg);
+}
+
+.svg-section svg {
+  width: 1000px;
+}
+
+svg .cls-1 {
+  stroke: #fff;
+  fill: transparent;
+  stroke-dasharray: 25000;
+  stroke-dashoffset: 25000;
+  animation: animate 50s linear infinite;
+}
+@keyframes animate {
+  to {
+    stroke-dashoffset: 0;
+    fill: #fff;
+  }
+}
+
+svg .cls-2 {
+  stroke: #fff;
+  fill: transparent;
+  stroke-dasharray: 25000;
+  stroke-dashoffset: 25000;
+  animation: circle 10s linear infinite;
+}
+
+@keyframes circle {
+  to {
+    stroke-dashoffset: 0;
+    fill: rgb(241, 13, 13);
+  }
+}
